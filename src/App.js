@@ -1,23 +1,23 @@
 import logo from './logo.svg';
 import './App.css';
+import FunctionalProp from './components/FunctionalProp';
+import ListComp from './components/ListComp';
+import Usecss from './components/Usecss';
+import ConditionalClass from './components/ConditionalClass';
 
 function App() {
+  // function showName(name){
+  //   console.log('my name is: ' + name);
+  // }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <FunctionalProp showname = {showName}></FunctionalProp> */}
+
+      {/* <ListComp></ListComp> */}
+      {/* <Usecss></Usecss> */}
+
+      <ConditionalClass></ConditionalClass>
+      
     </div>
   );
 }
